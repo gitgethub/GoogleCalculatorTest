@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Test Suite" parallel="tests" thread-count="1">
+<listeners>
+<listener class-name="com.crm.qa.extentreports.Listener"></listener>
+</listeners>
+ <test name="Test Google Calculator">
+ <packages>
+            <package name="com.crm.qa.testcases" />
+        </packages>
+ </test>
+</suite>
